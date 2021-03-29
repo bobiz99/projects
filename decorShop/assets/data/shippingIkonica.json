@@ -1,0 +1,22 @@
+[
+    {
+        "klasa":"fa fa-luggage-cart",
+        "tekst1":"Free shipping",
+        "tekst2":"World wide shipping!"
+    },
+    {
+        "klasa":"fas fa-shipping-fast",
+        "tekst1":"Extra fast delivery",
+        "tekst2":"Just $5 for fast delivery!"
+    },
+    {
+        "klasa":"fas fa-piggy-bank",
+        "tekst1":"Save your money",
+        "tekst2":"Sales every month!"
+    },
+    {
+        "klasa":"fas fa-money-bill-alt",
+        "tekst1":"Money back guarantee",
+        "tekst2":"Verificated shop!"
+    }
+]

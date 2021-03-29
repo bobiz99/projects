@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "naziv": "chair"
+    },
+    {
+        "id": 2,
+        "naziv": "table"
+    },
+    {
+        "id": 3,
+        "naziv": "sofa"
+    },
+    {
+        "id": 4,
+        "naziv": "bed"
+    },
+    {
+        "id": 5,
+        "naziv": "lamps"
+    }
+]

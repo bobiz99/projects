@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Decor! Feel comfortable in your space! Choose one or more of many furniture in our shop!">
+	  <meta name="keywords" content="shop, decor, furniture, comfortable, free shipping, delivery, save money, money back guarantee, money back, dining room, bed room, living room, room, bed, living, table, chair, sofa, lamps, products, product, sale, sales, stool, categories, shop now">
+	  <meta name="author" content="Slobodan Zafirovski">
+    <title>DECOR</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/mediaquery.min.css" type="text/css">
+    <link rel="shortcut icon" href="assets/images/logo.ico">
+</head>
+<body>
+    <!--NAVIGATION-->
+    <div class="container-fluid bgColorZuta zalepiMeni">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light bgColorZuta">
+          <a class="navbar-brand" href="#">DECOR</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="index.html">Home</a>
+              <a class="nav-item nav-link" href="#gallery">Categories</a>
+              <a class="nav-item nav-link" href="#shop">Shop</a>
+              <a class="nav-item nav-link" href="#contact">Contact</a>
+              <a href="cart.html" class="nav-link"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!--HEADER SLIDER-->
+    <header id="slider" class="masthead img-fluid">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-12 text-center text-light">
+            <h1 id="naslovSlider" class="font-weight-light display-1 text-light"></h1>  
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--CONTENT SHIPPING-->
+    <div class="container pt-5 pb-5">
+      <div class="row margineRow" id="contentShipping" data-aos="fade-up">
+        <!--ISPIS IZ JS-->
+      </div>
+    </div>
+
+    <!--GALLERY-->
+    <div class="container-fluid">
+      <div class="row" id="gallery">
+        <!--ISPIS KROZ JS-->
+      </div>
+    </div>
+    
+    <!--WEEKLY SALES-->
+    <div class="container-fluid bgColorZuta">
+      <div class="row pt-5 pb-5">
+        <div class="col-lg-6 col-sm-12 p-5 d-flex justify-content-lg-center justify-content-sm-center">
+          <img src="assets/images/offer_imgEdit.png" alt="sales" class="img-fluid" data-aos="fade-right">
+        </div>
+        <div class="col-lg-6 col-sm-12 d-flex flex-column align-items-center justify-content-center">
+          <h1 class="text-light mb-5 display-2 text-center" data-aos="fade-left">Monthly Sale on <br>Products 60% Off </h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product section -->
+	<section class="product-section spad position-relative" id="shop">
+		<div class="container">
+      <div class="row d-flex justify-content-center pb-5  ">
+        <h2 class="display-3 text-uppercaset text-center">BROWSE PRODUCTS</h2>
+      </div>
+			<ul class="product-filter controls" id="kategorije">
+        <li class="control filter" data-id = "all" data-filter=".new">All</li>
+				<!--Ispis iz JS-->
+      </ul>
+      <ul class="product-filter controls" id="vrsteProizvoda">
+				<!--Ispis iz JS-->
+      </ul>
+      <!--DROPDOWN SORTIRANJE-->
+      <div class="row d-flex justify-content-center mb-5">
+        <div class="dropdown show">
+          <a class="btn btn-secondary dropdown-toggle btnSort" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <b>SORT BY</b>
+          </a>
+        
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="" data-sort="naziv" data-order="asc">Ascending</a>
+            <a class="dropdown-item" href="" data-sort="naziv" data-order="desc">Descending</a>
+            <a class="dropdown-item" href="" data-sort="cena" data-order="asc">Price, low to high</a>
+            <a class="dropdown-item" href="" data-sort="cena" data-order="desc">Price, high to low</a>
+          </div>
+        </div>
+      </div>
+			<div class="row d-flex justify-content-center" id="product-filter">
+				<!--ISPIS KROZ JS-->
+			</div>
+    </div>
+    <div class="uspesnoDodato">
+        <h4 class="p-5 text-center"><b>Cart successfully updated!</b></h4>
+    </div>
+	</section>
+  <!-- Product section end -->
+  
+  <!--CONTACT-->
+  <div class="container-fluid" id="contact">
+    <div class="row">
+      <div class="col-lg-6 col-sm-12 pl-0 pr-0" id="map">
+      </div>
+      <div class="col-lg-6 col-sm-12 bgColorZuta">
+        <div class="container p-5">
+          <h2 class="text-center">Get in touch with us!</h2>
+          <form action="#">
+            <label for="firstName" class="mt-4">First name</label>
+            <input type="text" class="form-control" id="ime" placeholder="First name.." required>
+            <div id="firstNameError" class="invalid-feedback">
+            </div>
+
+            <label for="lastName" class="mt-4">Last name</label>
+            <input type="text" class="form-control" id="prezime" placeholder="Last name.." required>
+            <div id="lastNameError" class="invalid-feedback">
+            </div>
+
+            <label for="email" class="mt-4">Email</label>
+            <input type="text" class="form-control" id="email" placeholder="Email.." required>
+
+            <div id="emailError" class="invalid-feedback">
+            </div>
+            <div class="row mt-4 d-flex justify-content-center">
+              <label for="birthday">Your birthday:</label>
+            </div>
+            <!--dinamicki ispis datuma iz js-->
+            <div class="row d-flex justify-content-around mt-3">
+              <div id="ddlMonth">
+              </div>
+
+              <div id="ddlDay">
+              </div>
+  
+              <div id="ddlYear">
+              </div>
+            </div>
+            <div class="row d-flex justify-content-around">
+              <div id="meseciError" class="invalid-feedback helper-width d-flex justify-content-center">
+              </div>
+
+              <div id="daniError" class="invalid-feedback helper-width d-flex justify-content-center">
+              </div>
+
+              <div id="godineError" class="invalid-feedback helper-width d-flex justify-content-center">
+              </div>
+            </div>
+            <div class="row p-0 mt-4 d-flex justify-content-center">
+              <label for="message" class="mt-4 text-center">Your message:</label>
+            </div>
+            
+            <div class="row mt-2 d-flex justify-content-center flex-column align-items-center">
+              
+              <textarea id="message" cols="" rows="" class="is-valid"></textarea>
+              <p id="msgError"></p>
+            </div>
+            <div class="row d-flex justify-content-center mt-5">
+              <button class="btn btn-dark" id="btnProveri">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--FOOOTER-->
+  <footer>
+    <div class="container-fluid bgColorFooter p-4">
+      <div class="row d-flex justify-content-between">
+        <div class="col-lg-4 d-flex justify-content-center align-items-center mb-sm-5 mb-lg-0 mt-sm-5 mt-lg-0 marginaZaTelefone">
+          <a href="dokumentacijaSlobodanZafirovski5218WebProg2.pdf" class="text-dark"><i class="fas fa-file-alt velicinaTexta"></i></a>
+          <a href="https://bobiz99.github.io/" class="text-dark"><i class="fas fa-user-alt ml-4 mr-4 velicinaTexta"></i></a>
+          <a href="sitemap.xml" class="text-dark"><i class="fas fa-sitemap velicinaTexta"></i></a>
+        </div>
+
+        <div class="col-lg-4 d-flex justify-content-center align-items-center mb-sm-5  mb-lg-0 mt-sm-5 mt-lg-0 marginaZaTelefone">
+          Copyright&copy;&nbsp; <a href="https://bobiz99.github.io/" class="text-dark"> <b>Slobodan Zafirovski</b> </a>&nbsp; 2020
+        </div>
+
+        <div class="col-lg-4 d-flex justify-content-center align-items-center mt-sm-5 mt-lg-0 marginaZaTelefone">
+            <a href="https://www.facebook.com/" class="text-dark"><i class="fab fa-facebook-square velicinaTexta"></i></a>
+            <a href="https://www.twitter.com/" class="text-dark"><i class="fab fa-twitter-square ml-4 mr-4 velicinaTexta"></i></a>
+            <a href="https://www.linkedin.com/" class="text-dark"><i class="fab fa-linkedin velicinaTexta"></i></a>
+        </div>
+    </div>
+  </div>
+  </footer>
+  
+
+
+
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!--BOOTSTRAP JS ZBOG DROPDOWN LISTE-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/js/main.min.js"></script>
+    <!--GOOGLE MAP API-->
+    <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCP_ShD89CxZnczApDOId-3HV1lHftAzoI&amp;callback=initMap">
+    </script>
+    <script>
+      function initMap() {
+     var uluru = {lat:44.8145727, lng:20.482746};
+     var map = new google.maps.Map(document.getElementById('map'), {
+     zoom: 19,
+     center: uluru
+    });
+     var marker = new google.maps.Marker({
+     position: uluru,
+     map: map
+});
+}
+  </script>
+</body>
+</html>

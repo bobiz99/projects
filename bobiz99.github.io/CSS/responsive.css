@@ -1,0 +1,833 @@
+@media (max-width: 992px){
+   header #left #top #toptop nav ul li{
+       font-size: 1.7vw;
+   } 
+   header #left #top #toptop #logo{
+       width: 13%;
+   }
+   #content1 #leftc1 h1{
+       font-size: 5vw;
+   }
+   #content1 #leftc1 #phototext{
+       font-size: 1.8vw;
+   }
+   #content2 #mainblock{
+       width: 90%;
+   }
+   #content2 #mainblock #topc2{
+       font-size: 2.4vw;
+   }
+   #content2 #mainblock #bottomc2 #bottomblock1{
+       width: 28%;
+   }
+   #content2 #mainblock #bottomc2 #bottomblock2{
+    width: 28%;
+   }
+   #content2 #mainblock #bottomc2 #bottomblock3{
+    width: 28%;
+   }
+   #content3 #leftc3 #lefttopc3 h2{
+       font-size: 4vw;
+   }
+   #content3 #leftc3 #lefttopc3 .edtext h3{
+       font-size: 2.5vw;
+   }
+   #content3 #leftc3 #lefttopc3 .edtext p{
+       font-size: 1.3vw;
+   }
+   #content3 #leftc3 #leftbottomc3 .edtext h3{
+       font-size: 2.5vw;
+       margin-bottom: 5%;
+   }
+   #content3 #leftc3 #leftbottomc3 .edtext p{
+       font-size: 1.3vw;
+       margin-bottom: 5%;
+   }
+   #content3 #rightc3 #skillbar .bar #html p{
+    font-size: 1.2vw;
+}
+#content3 #rightc3 #skillbar .bar #css p{
+    font-size: 1.2vw;
+}
+#content3 #rightc3 #skillbar .bar #js p{
+    font-size: 1.2vw;
+}
+#content3 #rightc3 #skillbar .bar #ps p{
+    font-size: 1.2vw;
+}
+#content3 #rightc3 #skillbar .bar #ph p{
+    font-size: 1.2vw;
+}
+#content3 #rightc3 #skillbar .bar #ret p{
+    font-size: 1.2vw;
+}
+#contactform #blockforma{
+    height: auto;
+}
+#contactform #blockforma form input[type="text"]{
+    font-size: 3vw;
+}
+#contactform #blockforma form input[type="email"]{
+    font-size: 3vw;
+}
+#contactform #blockforma h2{
+    font-size: 6vw;
+}
+#contactform #blockforma p{
+    font-size: 4vw;
+}
+#contactform #blockforma form select{
+    font-size: 3vw;
+}
+#contactform #blockforma form textarea{
+    font-size: 3vw;
+}
+#contactform #blockforma form .btn{
+    font-size: 3vw;
+}
+footer{
+    height: 100px;
+}
+}
+@media (max-width: 768px){
+    header{
+        flex-direction: column;
+        height: auto;
+    }
+    header #left{
+        width: 100%;
+        height: 100vh;
+    }
+    header #right{
+        width: 100%;
+        height: 100vh;
+    }
+    header #left #center #squareleft{
+        display: none;
+    }
+    header #right #squareright{
+        display: none;
+    }
+    header #left #top #toptop #logo{
+        width: 15%;
+    }
+    header #left #bottom #leftbottom{
+        font-size: 4.5vw;
+    }
+    header #left #bottom #moreinf{
+        font-size: 4.5vw;
+    }
+    header #left #bottom #moreinf i{
+        font-size: 4vw;
+    }
+    header #left #top #topbottom #head1{
+        font-size: 4.5vw;
+        margin-left: 20%;
+    }
+    header #left #center #head2{
+        font-size: 4vw;
+        margin-left: 40%;
+    }
+    header #left #center #head3{
+        font-size: 4vw;
+        margin-top: 5%;
+    }
+    header #right #blokslika{
+        width: 75%;
+    }
+    header #left #top #toptop #sendvic{
+        display: block;
+    }
+    header #left #top #toptop nav{
+        display: none;
+    }
+
+    #content1{
+        flex-direction: column;
+        height: auto;
+    }
+    #content1 #leftc1{
+        width: 100%;
+        height: 100vh;
+    }
+    #content1 #rightc1{
+        width: 100%;
+        height: auto;
+    }
+    #content1 #leftc1 h1{
+        font-size: 11vw;
+    }
+    #content1 #leftc1 #phototext{
+        width: 70%;
+        height: 35%;
+        font-size: 5vw;
+    }
+    #content1 #rightc1{
+        font-size: 5.5vw;
+    }
+    #content1 #rightc1 #righttop{
+        flex-direction: column;
+    }
+    #content1 #rightc1 #righttop #leftphoto{
+        width: 100%;
+        height: 70vh;
+    }
+    #content1 #rightc1 #righttop #righttext{
+        width: 100%;
+        height: 70vh;
+    }
+    #content1 #rightc1 #rightbottom{
+        flex-direction: column;
+    }
+    #content1 #rightc1 #rightbottom #rightphoto{
+        width: 100%;
+        height: 70vh;
+        order: 1;
+    }
+    #content1 #rightc1 #rightbottom #lefttext{
+        width: 100%;
+        order: 2;
+        height: 70vh;
+    }
+
+    #content2{
+        height: auto;
+        background-repeat: repeat-y;
+    }
+    #content2 #mainblock{
+        height: auto;
+        width: 90%;
+    }
+    #content2 #mainblock #topc2{
+        font-size: 5vw;
+        height: 15%;
+        margin-bottom: 10%;
+    }
+    #content2 #mainblock #bottomc2{
+        flex-direction: column;
+    }
+    #content2 #mainblock #bottomc2 #bottomblock1{
+        width: 80%;
+        height: 70vh;
+        margin-bottom: 5%;
+    }
+    #content2 #mainblock #bottomc2 #bottomblock2{
+        width: 80%;
+        height: 70vh;
+        margin-bottom: 5%;
+    }
+    #content2 #mainblock #bottomc2 #bottomblock3{
+        width: 80%;
+        height: 70vh;
+        font-size: 6vw;
+        margin-bottom: 5%;
+    }
+
+    #content3{
+        flex-direction: column;
+        height: auto;
+    }
+    #content3 #leftc3{
+        width: 100%;
+        height: auto;
+        order: 2;
+    }
+    #content3 #rightc3{
+        width: 100%;
+        height: 100vh;
+        order: 1;
+    }
+    #content3 #rightc3 h1{
+        font-size: 11vw;
+    }
+    #content3 #rightc3 #skillbar{
+        font-size: 3vw;
+        width: 100%;
+    }
+    #content3 #rightc3 #skillbar .bar #html p{
+        font-size: 1.5vw;
+    }
+    #content3 #rightc3 #skillbar .bar #css p{
+        font-size: 1.5vw;
+    }
+    #content3 #rightc3 #skillbar .bar #js p{
+        font-size: 1.5vw;
+    }
+    #content3 #rightc3 #skillbar .bar #ps p{
+        font-size: 1.5vw;
+    }
+    #content3 #rightc3 #skillbar .bar #ph p{
+        font-size: 1.5vw;
+    }
+    #content3 #rightc3 #skillbar .bar #ret p{
+        font-size: 1.5vw;
+    }
+    #content3 #leftc3 #lefttopc3{
+        height: 100vh;
+    }
+    #content3 #leftc3 #lefttopc3 h2{
+        font-size: 9vw;
+    }
+    #content3 #leftc3 #lefttopc3 .edtext{
+        width: 90%;
+    }
+    #content3 #leftc3 #lefttopc3 .edtext h3{
+        font-size: 6vw;
+    }
+    #content3 #leftc3 #lefttopc3 .edtext p{
+        font-size: 3vw;
+    }
+
+    /* C3*/
+    #content3 #leftc3 #leftbottomc3{
+        height: 100vh;
+    }
+    #content3 #leftc3 #leftbottomc3 h2{
+        font-size: 9vw;
+    }
+    #content3 #leftc3 #leftbottomc3 .edtext{
+        width: 90%;
+    }
+    #content3 #leftc3 #leftbottomc3 .edtext h3{
+        font-size: 6vw;
+    }
+    #content3 #leftc3 #leftbottomc3 .edtext p{
+        font-size: 3vw;
+        margin-top: 7%;
+    }
+
+
+    #contactform{
+        height: auto;
+    }
+    #contactform #blockforma{
+        width: 95%;
+        height: 73%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    #contactform #blockforma form input[type="text"]{
+        font-size: 4vw;
+    }
+    #contactform #blockforma form input[type="email"]{
+        font-size: 4vw;
+    }
+    #contactform #blockforma h2{
+        font-size: 7vw;
+    }
+    #contactform #blockforma p{
+        font-size: 6vw;
+    }
+    #contactform #blockforma form select{
+        font-size: 4vw;
+    }
+    #contactform #blockforma form textarea{
+        font-size: 4vw;
+    }
+    #contactform #blockforma form .btn{
+        font-size: 4vw;
+    }
+
+    
+    footer{
+        height: 250px;
+        flex-direction: column;
+    }
+    footer #footleft{
+        font-size: 7vw;
+    }
+    footer h2{
+        font-size: 4vw;
+    }
+    footer p{
+        font-size: 2vw;
+    }
+}
+@media (max-width: 576px){
+    header{
+        flex-direction: column;
+        height: auto;
+    }
+    header #left{
+        width: 100%;
+        height: 100vh;
+    }
+    header #right{
+        width: 100%;
+        height: 100vh;
+    }
+    header #left #center #squareleft{
+        display: none;
+    }
+    header #right #squareright{
+        display: none;
+    }
+    header #left #top #toptop #logo{
+        width: 15%;
+    }
+    header #left #bottom #leftbottom{
+        font-size: 4.5vw;
+    }
+    header #left #bottom #moreinf{
+        font-size: 4.5vw;
+    }
+    header #left #bottom #moreinf i{
+        font-size: 4vw;
+    }
+    header #left #top #topbottom #head1{
+        font-size: 5.5vw;
+        margin-left: 20%;
+    }
+    header #left #center #head2{
+        font-size: 5vw;
+        margin-left: 40%;
+    }
+    header #left #center #head3{
+        font-size: 5vw;
+        margin-top: 5%;
+    }
+    header #right #blokslika{
+        width: 75%;
+    }
+    header #left #top #toptop #sendvic{
+        display: block;
+    }
+    header #left #top #toptop nav{
+        display: none;
+    }
+
+    #content1{
+        flex-direction: column;
+        height: auto;
+    }
+    #content1 #leftc1{
+        width: 100%;
+        height: 100vh;
+    }
+    #content1 #rightc1{
+        width: 100%;
+        height: auto;
+    }
+    #content1 #leftc1 h1{
+        font-size: 11vw;
+    }
+    #content1 #leftc1 #phototext{
+        width: 70%;
+        height: 35%;
+        font-size: 5vw;
+    }
+    #content1 #rightc1{
+        font-size: 5.5vw;
+    }
+    #content1 #rightc1 #righttop{
+        flex-direction: column;
+    }
+    #content1 #rightc1 #righttop #leftphoto{
+        width: 100%;
+        height: 70vh;
+    }
+    #content1 #rightc1 #righttop #righttext{
+        width: 100%;
+        height: 70vh;
+    }
+    #content1 #rightc1 #rightbottom{
+        flex-direction: column;
+    }
+    #content1 #rightc1 #rightbottom #rightphoto{
+        width: 100%;
+        height: 70vh;
+        order: 1;
+    }
+    #content1 #rightc1 #rightbottom #lefttext{
+        width: 100%;
+        order: 2;
+        height: 70vh;
+    }
+
+    #content2{
+        height: auto;
+        background-repeat: repeat-y;
+    }
+    #content2 #mainblock{
+        height: auto;
+        width: 90%;
+    }
+    #content2 #mainblock #topc2{
+        font-size: 5vw;
+        height: 15%;
+        margin-bottom: 10%;
+    }
+    #content2 #mainblock #bottomc2{
+        flex-direction: column;
+    }
+    #content2 #mainblock #bottomc2 #bottomblock1{
+        width: 80%;
+        height: 70vh;
+        margin-bottom: 5%;
+    }
+    #content2 #mainblock #bottomc2 #bottomblock2{
+        width: 80%;
+        height: 70vh;
+        margin-bottom: 5%;
+    }
+    #content2 #mainblock #bottomc2 #bottomblock3{
+        width: 80%;
+        height: 70vh;
+        font-size: 6vw;
+        margin-bottom: 5%;
+    }
+
+    #content3{
+        flex-direction: column;
+        height: auto;
+    }
+    #content3 #leftc3{
+        width: 100%;
+        height: auto;
+        order: 2;
+    }
+    #content3 #rightc3{
+        width: 100%;
+        height: 100vh;
+        order: 1;
+    }
+    #content3 #rightc3 h1{
+        font-size: 11vw;
+    }
+    #content3 #rightc3 #skillbar{
+        font-size: 3vw;
+        width: 100%;
+    }
+    #content3 #rightc3 #skillbar .bar #html p{
+        font-size: 1.5vw;
+    }
+    #content3 #rightc3 #skillbar .bar #css p{
+        font-size: 1.5vw;
+    }
+    #content3 #rightc3 #skillbar .bar #js p{
+        font-size: 1.5vw;
+    }
+    #content3 #rightc3 #skillbar .bar #ps p{
+        font-size: 1.5vw;
+    }
+    #content3 #rightc3 #skillbar .bar #ph p{
+        font-size: 1.5vw;
+    }
+    #content3 #rightc3 #skillbar .bar #ret p{
+        font-size: 1.5vw;
+    }
+    #content3 #leftc3 #lefttopc3{
+        height: 100vh;
+    }
+    #content3 #leftc3 #lefttopc3 h2{
+        font-size: 10vw;
+    }
+    #content3 #leftc3 #lefttopc3 .edtext{
+        width: 90%;
+    }
+    #content3 #leftc3 #lefttopc3 .edtext h3{
+        font-size: 7vw;
+    }
+    #content3 #leftc3 #lefttopc3 .edtext p{
+        font-size: 4vw;
+    }
+
+    /* C3*/
+    #content3 #leftc3 #leftbottomc3{
+        height: 100vh;
+    }
+    #content3 #leftc3 #leftbottomc3 h2{
+        font-size: 10vw;
+    }
+    #content3 #leftc3 #leftbottomc3 .edtext{
+        width: 90%;
+    }
+    #content3 #leftc3 #leftbottomc3 .edtext h3{
+        font-size: 7vw;
+    }
+    #content3 #leftc3 #leftbottomc3 .edtext p{
+        font-size: 4vw;
+        margin-top: 7%;
+    }
+
+
+    #contactform{
+        height: auto;
+    }
+    #contactform #blockforma{
+        width: 95%;
+        height: 73%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    #contactform #blockforma form input[type="text"]{
+        font-size: 4vw;
+    }
+    #contactform #blockforma form input[type="email"]{
+        font-size: 4vw;
+    }
+    #contactform #blockforma h2{
+        font-size: 7vw;
+    }
+    #contactform #blockforma p{
+        font-size: 6vw;
+    }
+    #contactform #blockforma form select{
+        font-size: 4vw;
+    }
+    #contactform #blockforma form textarea{
+        font-size: 4vw;
+    }
+    #contactform #blockforma form .btn{
+        font-size: 4vw;
+    }
+
+    
+    footer{
+        height: 250px;
+        flex-direction: column;
+    }
+    footer #footleft{
+        font-size: 7vw;
+    }
+    footer h2{
+        font-size: 4vw;
+    }
+    footer p{
+        font-size: 2vw;
+    }
+}
+@media (max-width: 375px){
+    header{
+        flex-direction: column;
+        height: auto;
+    }
+    header #left{
+        width: 100%;
+        height: 100vh;
+    }
+    header #right{
+        width: 100%;
+        height: 100vh;
+    }
+    header #left #center #squareleft{
+        display: none;
+    }
+    header #right #squareright{
+        display: none;
+    }
+    header #left #top #toptop #logo{
+        width: 18%;
+    }
+    header #left #bottom #leftbottom{
+        font-size: 4.5vw;
+    }
+    header #left #bottom #moreinf{
+        font-size: 4.5vw;
+    }
+    header #left #bottom #moreinf i{
+        font-size: 4vw;
+    }
+    header #left #top #topbottom #head1{
+        font-size: 6.5vw;
+        margin-left: 20%;
+    }
+    header #left #center #head2{
+        font-size: 6vw;
+        margin-left: 40%;
+    }
+    header #left #center #head3{
+        font-size: 6vw;
+        margin-top: 5%;
+    }
+    header #right #blokslika{
+        width: 75%;
+    }
+    header #left #top #toptop #sendvic{
+        display: block;
+    }
+    header #left #top #toptop nav{
+        display: none;
+    }
+
+    #content1{
+        flex-direction: column;
+        height: auto;
+    }
+    #content1 #leftc1{
+        width: 100%;
+        height: 60vh;
+    }
+    #content1 #rightc1{
+        width: 100%;
+        height: 150vh;
+    }
+    #content1 #leftc1 h1{
+        font-size: 11vw;
+    }
+    #content1 #leftc1 #phototext{
+        width: 70%;
+        height: 35%;
+        font-size: 5vw;
+    }
+    #content1 #rightc1{
+        font-size: 5.5vw;
+    }
+    #content1 #rightc1 #righttop{
+        flex-direction: column;
+    }
+    #content1 #rightc1 #righttop #leftphoto{
+        width: 100%;
+    }
+    #content1 #rightc1 #righttop #righttext{
+        width: 100%;
+    }
+    #content1 #rightc1 #rightbottom{
+        flex-direction: column;
+    }
+    #content1 #rightc1 #rightbottom #rightphoto{
+        width: 100%;
+        order: 1;
+    }
+    #content1 #rightc1 #rightbottom #lefttext{
+        width: 100%;
+        order: 2;
+    }
+
+    #content2{
+        height: 150vh;
+    }
+    #content2 #mainblock{
+        height: 95%;
+        width: 90%;
+    }
+    #content2 #mainblock #topc2{
+        font-size: 5vw;
+        height: 15%;
+    }
+    #content2 #mainblock #bottomc2{
+        flex-direction: column;
+    }
+    #content2 #mainblock #bottomc2 #bottomblock1{
+        width: 80%;
+        height: 30%;
+    }
+    #content2 #mainblock #bottomc2 #bottomblock2{
+        width: 80%;
+        height: 30%;
+    }
+    #content2 #mainblock #bottomc2 #bottomblock3{
+        width: 80%;
+        height: 30%;
+        font-size: 6vw;
+    }
+
+    #content3{
+        flex-direction: column;
+        height: auto;
+    }
+    #content3 #leftc3{
+        width: 100%;
+        height: 100vh;
+        order: 2;
+    }
+    #content3 #rightc3{
+        width: 100%;
+        height: 100vh;
+        order: 1;
+    }
+    #content3 #rightc3 h1{
+        font-size: 11vw;
+    }
+    #content3 #rightc3 #skillbar{
+        font-size: 5vw;
+        width: 100%;
+    }
+    #content3 #rightc3 #skillbar .bar #html p{
+        font-size: 3vw;
+    }
+    #content3 #rightc3 #skillbar .bar #css p{
+        font-size: 3vw;
+    }
+    #content3 #rightc3 #skillbar .bar #js p{
+        font-size: 3vw;
+    }
+    #content3 #rightc3 #skillbar .bar #ps p{
+        font-size: 3vw;
+    }
+    #content3 #rightc3 #skillbar .bar #ph p{
+        font-size: 3vw;
+    }
+    #content3 #rightc3 #skillbar .bar #ret p{
+        font-size: 3vw;
+    }
+    #content3 #leftc3 #lefttopc3 h2{
+        font-size: 11vw;
+    }
+    #content3 #leftc3 #lefttopc3 .edtext{
+        width: 90%;
+    }
+    #content3 #leftc3 #lefttopc3 .edtext h3{
+        font-size: 7vw;
+    }
+    #content3 #leftc3 #lefttopc3 .edtext p{
+        font-size: 4vw;
+    }
+
+    /* C3*/
+    #content3 #leftc3 #leftbottomc3 h2{
+        font-size: 11vw;
+    }
+    #content3 #leftc3 #leftbottomc3 .edtext{
+        width: 90%;
+    }
+    #content3 #leftc3 #leftbottomc3 .edtext h3{
+        font-size: 7vw;
+    }
+    #content3 #leftc3 #leftbottomc3 .edtext p{
+        font-size: 4vw;
+        margin-top: 7%;
+    }
+
+
+    #contactform #blockforma{
+        width: 95%;
+        height: 73%;
+    }
+    #contactform #blockforma form input[type="text"]{
+        font-size: 6vw;
+    }
+    #contactform #blockforma form input[type="email"]{
+        font-size: 6vw;
+    }
+    #contactform #blockforma h2{
+        font-size: 10vw;
+    }
+    #contactform #blockforma p{
+        font-size: 8vw;
+    }
+    #contactform #blockforma form select{
+        font-size: 6vw;
+    }
+    #contactform #blockforma form textarea{
+        font-size: 6vw;
+    }
+    #contactform #blockforma form .btn{
+        font-size: 6vw;
+    }
+
+    
+    footer{
+        height: 250px;
+        flex-direction: column;
+    }
+    footer #footleft{
+        font-size: 9vw;
+    }
+    footer h2{
+        font-size: 6vw;
+    }
+    footer p{
+        font-size: 4vw;
+    }
+}

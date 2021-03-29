@@ -1,0 +1,439 @@
+[
+    {
+        "id": 1,
+        "naziv": "Jagger Chair",
+        "cena":{
+            "staraCena": 64.99,
+            "novaCena": 39.49
+        },
+        "slika": {
+            "src": "assets/images/products1/chair1.jpg",
+            "alt": "proizvod1"
+        },
+        "new": false,
+        "sale": true,
+        "kategorija":
+            {
+                "id": 1,
+                "naziv": "Living room"
+            },
+        "vrstaProizvoda": {
+            "id": 1,
+            "naziv": "chair"
+        }
+    },
+    {
+        "id": 2,
+        "naziv": "Gardner Counter Stool",
+        "cena":{
+            "staraCena": "",
+            "novaCena": 49.99
+        },
+        "slika": {
+            "src": "assets/images/products1/chair2.jpg",
+            "alt": "proizvod2"
+        },
+        "new": false,
+        "sale": false,
+        "kategorija":
+            {
+                "id": 3,
+                "naziv": "Dining room"
+            },
+        "vrstaProizvoda": {
+            "id": 1,
+            "naziv": "chair"
+        }
+    },
+    {
+        "id": 3,
+        "naziv": "Clara Counter Stool",
+        "cena":{
+            "staraCena": "",
+            "novaCena": 55.49
+        },
+        "slika": {
+            "src": "assets/images/products1/chair3.jpg",
+            "alt": "proizvod3"
+        },
+        "new": true,
+        "sale": false,
+        "kategorija":
+            {
+                "id": 3,
+                "naziv": "Dining room"
+            },
+        "vrstaProizvoda": {
+            "id": 1,
+            "naziv": "chair"
+        }
+    },
+    {
+        "id": 4,
+        "naziv": "Kemper Accent Chair ",
+        "cena":{
+            "staraCena": "",
+            "novaCena": 70.99
+        },
+        "slika": {
+            "src": "assets/images/products1/chair4.jpg",
+            "alt": "proizvod4"
+        },
+        "new": false,
+        "sale": false,
+        "kategorija":
+            {
+                "id": 1,
+                "naziv": "Living room"
+            },
+        "vrstaProizvoda": {
+            "id": 1,
+            "naziv": "chair"
+        }
+    },
+    {
+        "id": 5,
+        "naziv": "HAYDEN DINING CHAIR",
+        "cena":{
+            "staraCena": "",
+            "novaCena": 119.49
+        },
+        "slika": {
+            "src": "assets/images/products1/chair5.jpg",
+            "alt": "proizvod5"
+        },
+        "new": true,
+        "sale": false,
+        "kategorija":
+            {
+                "id": 3,
+                "naziv": "Dining room"
+            },
+        "vrstaProizvoda": {
+            "id": 1,
+            "naziv": "chair"
+        }
+    },
+    {
+        "id": 6,
+        "naziv": "GABBY ACCENT CHAIR",
+        "cena":{
+            "staraCena": "",
+            "novaCena": 130.99
+        },
+        "slika": {
+            "src": "assets/images/products1/chair6.jpg",
+            "alt": "proizvod6"
+        },
+        "new": false,
+        "sale": false,
+        "kategorija":
+            {
+                "id": 1,
+                "naziv": "Living room"
+            },
+        "vrstaProizvoda": {
+            "id": 1,
+            "naziv": "chair"
+        }
+    },
+    {
+        "id": 7,
+        "naziv": "Sage Frost Side Table",
+        "cena":{
+            "staraCena": 120.99,
+            "novaCena": 75.99
+        },
+        "slika": {
+            "src": "assets/images/products1/table1.jpg",
+            "alt": "proizvod7"
+        },
+        "new": false,
+        "sale": true,
+        "kategorija":
+            {
+                "id": 1,
+                "naziv": "Living room"
+            },
+        "vrstaProizvoda": {
+            "id": 2,
+            "naziv": "table"
+        }
+    },
+    {
+        "id": 8,
+        "naziv": "Glass-Top Coffee Table",
+        "cena":{
+            "staraCena": "",
+            "novaCena": 150.99
+        },
+        "slika": {
+            "src": "assets/images/products1/table2.jpg",
+            "alt": "proizvod8"
+        },
+        "new": false,
+        "sale": false,
+        "kategorija":
+            {
+                "id": 1,
+                "naziv": "Living room"
+            },
+        "vrstaProizvoda": {
+            "id": 2,
+            "naziv": "table"
+        }
+    },
+    {
+        "id": 9,
+        "naziv": "Modern Saffron Table",
+        "cena":{
+            "staraCena": "",
+            "novaCena": 83.99
+        },
+        "slika": {
+            "src": "assets/images/products1/table3.jpg",
+            "alt": "proizvod9"
+        },
+        "new": false,
+        "sale": false,
+        "kategorija":
+            {
+                "id": 1,
+                "naziv": "Living room"
+            },
+        "vrstaProizvoda": {
+            "id": 2,
+            "naziv": "table"
+        }
+    },
+    {
+        "id": 10,
+        "naziv": "GRESHAM LIVE EDGE TABLE",
+        "cena":{
+            "staraCena": "",
+            "novaCena": 220.99
+        },
+        "slika": {
+            "src": "assets/images/products1/table4.jpg",
+            "alt": "proizvod10"
+        },
+        "new": true,
+        "sale": false,
+        "kategorija":
+            {
+                "id": 3,
+                "naziv": "Dining room"
+            },
+        "vrstaProizvoda": {
+            "id": 2,
+            "naziv": "table"
+        }
+    },
+    {
+        "id": 11,
+        "naziv": "Rectangular Parsons Table",
+        "cena":{
+            "staraCena": "",
+            "novaCena": 160.49
+        },
+        "slika": {
+            "src": "assets/images/products1/table5.jpg",
+            "alt": "proizvod11"
+        },
+        "new": false,
+        "sale": false,
+        "kategorija":
+            {
+                "id": 3,
+                "naziv": "Dining room"
+            },
+        "vrstaProizvoda": {
+            "id": 2,
+            "naziv": "table"
+        }
+    },
+    {
+        "id": 12,
+        "naziv": "Jody Folding Table",
+        "cena":{
+            "staraCena": 140.99,
+            "novaCena": 95.49
+        },
+        "slika": {
+            "src": "assets/images/products1/table6.jpg",
+            "alt": "proizvod12"
+        },
+        "new": false,
+        "sale": true,
+        "kategorija":
+            {
+                "id": 3,
+                "naziv": "Dining room"
+            },
+        "vrstaProizvoda": {
+            "id": 2,
+            "naziv": "table"
+        }
+    },
+    {
+        "id": 13,
+        "naziv": "Jason 2-Seater",
+        "cena":{
+            "staraCena": 170.99,
+            "novaCena": 145.49
+        },
+        "slika": {
+            "src": "assets/images/products1/sofa1.jpg",
+            "alt": "proizvod13"
+        },
+        "new": false,
+        "sale": true,
+        "kategorija":
+            {
+                "id": 1,
+                "naziv": "Living room"
+            },
+        "vrstaProizvoda": {
+            "id": 3,
+            "naziv": "sofa"
+        }
+    },
+    {
+        "id": 14,
+        "naziv": "Chesterfield Velvet Sofa",
+        "cena":{
+            "staraCena": "",
+            "novaCena": 265.49
+        },
+        "slika": {
+            "src": "assets/images/products1/sofa2.jpg",
+            "alt": "proizvod14"
+        },
+        "new": true,
+        "sale": false,
+        "kategorija":
+            {
+                "id": 1,
+                "naziv": "Living room"
+            },
+        "vrstaProizvoda": {
+            "id": 3,
+            "naziv": "sofa"
+        }
+    },
+    {
+        "id": 15,
+        "naziv": "Barton Chaise",
+        "cena":{
+            "staraCena": "",
+            "novaCena": 230.99
+        },
+        "slika": {
+            "src": "assets/images/products1/sofa3.jpg",
+            "alt": "proizvod15"
+        },
+        "new": false,
+        "sale": false,
+        "kategorija":
+            {
+                "id": 2,
+                "naziv": "Bed room"
+            },
+        "vrstaProizvoda": {
+            "id": 3,
+            "naziv": "sofa"
+        }
+    },
+    {
+        "id": 16,
+        "naziv": "Naomi Chaise Lounge",
+        "cena":{
+            "staraCena": "",
+            "novaCena": 330.99
+        },
+        "slika": {
+            "src": "assets/images/products1/sofa4.jpg",
+            "alt": "proizvod16"
+        },
+        "new": false,
+        "sale": false,
+        "kategorija":
+            {
+                "id": 2,
+                "naziv": "Bed room"
+            },
+        "vrstaProizvoda": {
+            "id": 3,
+            "naziv": "sofa"
+        }
+    },
+    {
+        "id": 17,
+        "naziv": "Monica 3-Piece Comforter",
+        "cena":{
+            "staraCena": "",
+            "novaCena": 390.99
+        },
+        "slika": {
+            "src": "assets/images/products1/bed1.jpg",
+            "alt": "proizvod17"
+        },
+        "new": true,
+        "sale": false,
+        "kategorija":
+            {
+                "id": 2,
+                "naziv": "Bed room"
+            },
+        "vrstaProizvoda": {
+            "id": 4,
+            "naziv": "bed"
+        }
+    },
+    {
+        "id": 18,
+        "naziv": "Olivia Pinsonic Quilt",
+        "cena":{
+            "staraCena": "",
+            "novaCena": 165.99
+        },
+        "slika": {
+            "src": "assets/images/products1/bed2.jpg",
+            "alt": "proizvod18"
+        },
+        "new": false,
+        "sale": false,
+        "kategorija":
+            {
+                "id": 2,
+                "naziv": "Bed room"
+            },
+        "vrstaProizvoda": {
+            "id": 4,
+            "naziv": "bed"
+        }
+    },
+    {
+        "id": 19,
+        "naziv": "MONICA RUFFLE QUILT",
+        "cena":{
+            "staraCena": "",
+            "novaCena": 190.99
+        },
+        "slika": {
+            "src": "assets/images/products1/bed3.jpg",
+            "alt": "proizvod19"
+        },
+        "new": false,
+        "sale": false,
+        "kategorija":
+            {
+                "id": 2,
+                "naziv": "Bed room"
+            },
+        "vrstaProizvoda": {
+            "id": 4,
+            "naziv": "bed"
+        }
+    }
+]

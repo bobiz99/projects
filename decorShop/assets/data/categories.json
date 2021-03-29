@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "naziv": "Living room",
+        "slika": {
+            "src": "assets/images/livingroomEdit.jpg",
+            "alt": "living room picture"
+        }
+    },
+    {
+        "id":2,
+        "naziv": "Bed room",
+        "slika": {
+            "src": "assets/images/bedroomEdit.jpg",
+            "alt": "bed room picture"
+        }
+    },
+    {
+        "id":3,
+        "naziv": "Dining room",
+        "slika": {
+            "src": "assets/images/dinningroomEdit.jpg",
+            "alt": "dining room picture"
+        }
+    }
+]

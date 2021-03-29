@@ -1,0 +1,92 @@
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1176px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.velicinaTextaShipping{
+        font-size: 8.5vw;
+	}
+	.velicinaTexta{
+		font-size: 4vw;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.product-item .pi-meta .pi-m-left {
+		padding: 0 20px;
+	}
+	.product-item .pi-meta .pi-m-right {
+		padding: 0 20px;
+	}
+	.velicinaTextaShipping{
+        font-size: 8.5vw;
+    }
+	.bb_button__text{
+		font-size: 0.8rem;
+	}
+	#gallery .centered{
+		top: 45%;
+	}
+}
+@media (max-width: 991.98px) {
+    .velicinaTextaShipping{
+        font-size: 8vw;
+	}
+	.velicinaTexta{
+		font-size: 6vw;
+	}
+}
+
+@media only screen and (max-width: 767px){
+    .product-filter li {
+		margin-right: 28px;
+	}
+	.product-filter li:after {
+		right: -15px;
+		top: -2px;
+    }
+    .velicinaTextaShipping{
+        font-size: 10vw;
+	}
+	#naslovSlider{
+		font-size: 10vw;
+	}
+	#tabelaSadrzaj table tr td i{
+		font-size: 4.5vw;
+	}
+	footer a i{
+		font-size: 2vw;
+	}
+}
+
+@media (max-width: 575.98px) {
+    .velicinaTextaShipping{
+        font-size: 14vw;
+	}
+	footer .marginaZaTelefone{
+		margin-top: 7%;
+	}
+	.uspesnoDodato{
+		padding-left: 12%;
+		padding-right: 12%;
+		top: 85%;
+	}
+}
+
+@media only screen and (max-width: 479px){
+    .product-filter {
+		text-align: center;
+	}
+	.product-filter li {
+		margin-right: 0;
+		display: block;
+	}
+	.product-filter li:after {
+		display: none;
+	}
+	.velicinaTexta{
+		font-size: 8vw;
+	}
+}

@@ -1,0 +1,33 @@
+.mojaFaIkonica {
+	color: black;
+	margin-right: 20px;
+}
+
+.tranzicija {
+	transition: 1s;
+}
+
+#shopProducts a {
+	color: black;
+}
+
+.formaSuccess {
+	color: lightgreen;
+}
+
+.invisible {
+	display: none;
+}
+
+.formaError {
+	color: red !important;
+	display: block;
+}
+
+.bojaIkonica {
+	color: black;
+}
+
+.bojaIkonica:hover {
+	color: gray;
+}
